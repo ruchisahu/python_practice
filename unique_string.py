@@ -24,4 +24,5 @@ print(unique_char("abab"))
 print(unique_char("abcd"))
 
 print(unique_char(""))
+
 print(unique_char("a"))     
