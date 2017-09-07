@@ -7,4 +7,5 @@ board=[]
 for i in range(3):
 	row=['_']*3
 	board.append(row)
-print(board)
+lines=print(board)
+lines.saveAsTextFile('/ruchi/test.txt')
